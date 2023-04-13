@@ -1,0 +1,163 @@
+.about-us {
+    padding: 100px 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    letter-spacing: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.about-us-circl-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-circl-img img{
+    margin-left: -350px;
+    position: absolute;
+}
+
+.about-us-circl {
+    width: 18px;
+    height: 18px;
+    background-color: #aa84f9;
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-top: 80px;
+    transform: translateX(200px);
+    opacity: 0;
+}
+
+.about-us.scrolled .about-us-circl{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 1s 0.5s ease;
+}
+
+.about-us-main-photo {
+    transform: translateX(200px);
+    opacity: 0;
+}
+
+.about-us.scrolled .about-us-main-photo{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 1s ease;
+}
+
+.about-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.about-us-text h1 {
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 58px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.about-us-text p {
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 24.77px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.about-us-text ul {
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 21.4px;
+    text-align: left;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-us-text button {
+    color: #ffffff;
+    font-family: "Oswald";
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    background-color: #aa84f9;
+    margin-top: 40px;
+    text-transform: uppercase;
+    padding: 12px 22px;
+    border: 1px solid #aa84f9;
+    transition: all 0.4s ease;
+}
+
+.about-us-text button:hover {
+    background-color: #181818;
+    transition: all 0.4s ease;
+}
+
+
+.about-us-text {
+    transform: translateX(-150px);
+    opacity: 0;
+}
+
+.about-us.scrolled .about-us-text{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 1s ease;
+}
+
+
+.about-us-text ul li{
+    width: 48%;
+    margin: 20px 0px;
+}
+
+.about-us-text-item::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #aa84f9;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+.about-us-text h1 span{
+    color: #aa84f9;
+    font-weight: 400;
+    letter-spacing: 5.93px;
+}
+
+
+.about-us-circl-img.second {
+    display: flex;
+    margin-top: 40px;
+    justify-content: end;
+}
+
+.about-us .about-us-circl.second {
+    margin-left: 40%;
+    transform: translateX(-150px);
+    opacity: 0;
+}
+
+.about-us.scrolled .about-us-circl.second{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 1s ease;
+}

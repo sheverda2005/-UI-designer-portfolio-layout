@@ -1,0 +1,73 @@
+.why-us {
+    padding: 200px 0px;
+    width: 100%;
+}
+
+.why-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.why-us-circle-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-us-men {
+    position: absolute;
+    margin-top: 60px;
+}
+
+.why-us-text {
+    width: 30%;
+    margin-left: 150px;
+}
+
+.why-us-text h1 {
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.why-us-text h1 span{
+    color: #aa84f9;
+    font-weight: 400;
+    letter-spacing: 5.93px;
+}
+
+.why-us-text p {
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 24.77px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+}
+
+.why-us-circle-photo {
+    transform: translate(200px);
+    opacity: 0;
+}
+
+.why-us-text {
+  transform: translate(-250px);
+  opacity: 0;
+} 
+
+.why-us.scrolled .why-us-circle-photo{
+    transform: translate(0px);
+    opacity: 1;
+    transition: all 1.3s ease;
+}
+
+.why-us.scrolled .why-us-text{
+    transform: translate(0px);
+    opacity: 1;
+    transition: all 1.3s ease;
+}

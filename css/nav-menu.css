@@ -1,0 +1,73 @@
+nav {
+    padding: 20px 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 108px;
+    height: auto;
+}
+
+.nav-items {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.nav-item {
+    color: #ffffff;
+    font-family: "Oswald";
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.41px;
+    line-height: normal;
+    cursor: pointer;
+    border-bottom: 2px solid #181818;
+    transition: all 0.4s;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #ffffff ;
+    padding-bottom: 15px;
+    transition: all 0.4s;
+}
+
+
+.nav-item.active {
+    border-bottom: 2px solid #ffffff ;
+    padding-bottom: 15px;
+}
+
+.sign-in {
+    color: #181818;
+    font-family: 'Oswald';
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.41px;
+    line-height: normal;
+    padding: 3px 15px;
+    border: 1px solid #ffffff;
+    transition: all 0.4s ease;
+}
+
+.sign-in:hover {
+    color: #ffffff;
+    background-color: #181818;
+    border: 1px solid #ffffff;
+    transition: all 0.4s ease;
+}

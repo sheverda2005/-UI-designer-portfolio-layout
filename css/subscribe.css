@@ -1,0 +1,128 @@
+.subscribe {
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.subscribe-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.subscribe-content img{
+    position: absolute;
+    transform: translateX(-60%);
+}
+
+.subscribe-text {
+    margin-top: 10px;
+    z-index: 50%;
+    margin-left: 400px;
+    width: 50%;
+}
+
+.subscribe-text h1 {
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-text h1 span{
+    color: #8a6dc7;
+    font-family: "Krub";
+    font-size: 46px;
+    font-weight: 400;
+    letter-spacing: 2.55px;
+    text-transform: none;
+}
+
+.subscribe-text p{
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 29.63px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.subscribe-form input{
+    background-color: #181818;
+    border: 2px solid #8a6dc7;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    z-index: 99;
+    transition: all 0.4s ease;
+}
+
+.subscribe-form input:focus{
+    border: 2px solid #ffffff;
+    transition: all 0.4s ease;
+
+}
+
+
+.subscribe-form textarea{
+    background-color: #181818;
+    border: 2px solid #8a6dc7;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    resize: none;
+    z-index: 99;
+    transition: all 0.4s ease;
+}
+
+
+.subscribe-form textarea:focus{
+    border: 2px solid #ffffff;
+    transition: all 0.4s ease;
+
+}
+
+.subscribe-form button{
+    color: #f1f1f1;
+    font-family: "Oswald";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.08px;
+    max-width: 150px;
+    margin: 0px auto;
+    background-color: #8a6dc7;
+    padding: 10px 20px;
+    border: 1px solid #8a6dc7;
+    transition: all 0.4s ease;
+}
+
+.subscribe-form button:hover {
+    background-color: #181818;
+    transition: all 0.4s ease;
+}

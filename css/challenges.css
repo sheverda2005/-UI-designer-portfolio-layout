@@ -1,0 +1,196 @@
+.challenges {
+    padding: 150px 50px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.challenges-element-text {
+    width: 20%;
+}
+
+.challenges-element-main-text {
+    width: 80%;
+}
+
+.challenges-element-main-text {
+    color: #f2f2f2;
+    font-family: "Krub";
+    font-size: 83px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.challenges-element-main-text img{
+    position: absolute;
+}
+
+.challenges-element-main-text h1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.challenges-element-main-text-p.fisrt {
+    opacity: 0;
+}
+
+.challenges-element-main-text-span.second {
+    opacity: 0;
+}
+
+.challenges-element-main-text-p.third {
+    opacity: 0;
+}
+
+.challenges-element-main-text.scrolled .challenges-element-main-text-p.fisrt {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.challenges-element-main-text.scrolled .challenges-element-main-text-span.second {
+    opacity: 1;
+    transition: all 0.4s 0.5s ease;
+}
+.challenges-element-main-text.scrolled .challenges-element-main-text-p.third {
+    opacity: 1;
+    transition: all 0.4s 1s ease;
+}
+
+
+.challenges-element-main-text h1 span {
+    font-family: "Krub";
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 1.64px;
+    line-height: normal;
+}
+
+.challenges-element-text-discover-skills {
+    color: #ffffff;
+    font-family: "Krub";
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.challenges-element-text.first p{
+    color: #ffffff;
+    font-family: "Krub";
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.challenges-element-text.first p::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    position: absolute;
+    margin: -25px 3px 0px 0px;
+}
+
+.challenges-element-text.second p {
+    color: #ffffff;
+    font-family: "Krub";
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: end;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    writing-mode: vertical-rl;  
+}
+
+.challenges-element-text.second p::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    position: absolute;
+    margin: -25px 3px 0px 0px;
+}
+
+.challenges-element-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.challenges-element-text.second {
+    display: flex;
+    align-items: end;
+}
+
+.challenges-element-text h2 {
+    color: #252525;
+    font-family: "Krub";
+    font-size: 49px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 58.38px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1.64px;
+    line-height: normal;
+    margin-top: 100%;
+}
+
+@media (max-width: 1449px) {
+    .challenges h2 {
+        display: none;
+    }
+}
+
+@media (max-width: 980px) {
+    .challenges-element-text.first {
+        display: none;
+    }
+    .challenges-element-text.second {
+        display: none;
+    }
+    .challenges {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 880px) {
+    .challenges-element-main-text img {
+        width: 100%;
+    }
+    h1 p {
+        font-size: 60px;
+    }
+    .challenges {
+        padding: 50px 0px 50px 0px;
+    }
+}

@@ -1,0 +1,231 @@
+.courses {
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-titles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-titles h1 {
+    color: #f2f2f2;
+    font-family: "Krub";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 2.71px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.courses-titles h1 span{
+    color: #f2f2f2;
+    font-family: "Krub";
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.courses-titles h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+
+.courses-titles h4::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    position: absolute;
+    margin:  15px 0 0 -30px;
+}
+
+
+.courses-titles h4 p{
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 3.78px;
+    line-height: normal;
+}
+
+.courses-titles h4 span{
+    color: #ffffff;
+    font-family: "Krub";
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 4.2px;
+    line-height: normal;
+}
+
+
+.course-cards {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-card {
+    width: 20%;
+    min-width: 300px;
+    margin: 10px 10px;
+    border: 2px solid #ffffff;
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.course-cards.scrolled .course-card:nth-child(1) {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 0.8s ease;
+} 
+
+.course-cards.scrolled .course-card:nth-child(2) {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 0.8s 0.4s ease;
+} 
+
+.course-cards.scrolled .course-card:nth-child(3) {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 0.8s 0.8s ease;
+} 
+
+.course-cards.scrolled .course-card:nth-child(4) {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 0.8s 1.2s ease;
+} 
+
+.course-card_number {
+    background-color: #ffffff;
+    width: 43px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #181818;
+    font-family: "Krub";
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.course-card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 40px 30px;
+}
+
+.course-card-content h3{
+    color: #f2f2f2;
+    font-family: "Krub";
+    font-size: 33px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50.2px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.72px;
+    line-height: normal;
+}
+
+
+.course-card-content h3 span{
+    color: #aa84f9;
+    font-style: normal;
+    letter-spacing: 0.72px;
+    line-height: normal;
+}
+
+.line {
+    width: 55px;
+    height: 3px;
+    border: 1px solid #000000;
+    background-color: #aa84f9;
+    margin: 20px 0px;
+}
+
+.course-card-content p {
+    color: #f2f2f2;
+    font-family: "Krub";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26.73px;
+    text-align: justify;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    line-height: normal;
+}
+
+.course-card-content button {
+    color: #f1f1f1;
+    font-family: 'Oswald';
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1.08px;
+    line-height: normal;
+    background-color: #aa84f9;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: 1px solid #aa84f9;
+    transition: all 0.4s ease;
+}
+
+.course-card-content button:hover {
+    background-color: #181818;
+    border: 1px solid #aa84f9;
+    transition: all 0.4s ease;
+}
+
+@media (max-width: 600px) {
+    .courses h4 {
+        display: none;
+    }
+}
