@@ -317,11 +317,15 @@ nav {
 }
 
 @media (max-width: 978px) {
+    nav {
+        padding: 20px 20px;
+    }
     .nav-items {
         display: none;
     }
     .page-header-content  {
         flex-direction: column;
+        padding: 0px 0px 0px 20px;
     }
     .page-header-edition {
         display: none;
@@ -349,5 +353,8 @@ nav {
     }
     .page-header-information-edition {
         display: none;
+    }
+    .page-header-pro {
+        width: 100%;
     }
 }

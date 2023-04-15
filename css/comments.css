@@ -82,6 +82,18 @@
         flex-direction: column;
     }
     .user-comments-card {
+        width: 95%;
+    }
+    .users-commnts-content h1 {
+        font-size: 75px;
+    }
+    .users-commnts-content h1 span {
+        font-size: 30px;
+    }
+    .users-comments {
+        padding: 50px 20px;
+    }
+    .user-comments-nav {
         width: 70%;
     }
 }

@@ -183,4 +183,16 @@
     .about-us-main-photo img{
         display: none;
     }
+    .about-us {
+        padding: 50px 20px;
+    }
+    .about-us-content {
+        width: 100%;
+    }
+    .about-us-text p {
+        width: 100%;
+    }
+    .about-us-text-item {
+        text-align: center;
+    }
 }

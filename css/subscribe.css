@@ -141,3 +141,12 @@
         margin-left: 0px;
     }
 }
+
+@media (max-width: 426px) {
+    .subscribe {
+        padding-top: 50px;
+    }
+    .subscribe-text h1 span {
+        font-size: 40px;
+    }
+}
