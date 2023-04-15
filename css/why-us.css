@@ -71,3 +71,39 @@
     opacity: 1;
     transition: all 1.3s ease;
 }
+
+@media (max-width: 1350px) {
+    .why-us-circle {
+        height: 300px;
+    }
+    .why-us-men {
+        height: 500px;
+    }
+    .why-us-text {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .why-us-circle {
+        height: 250px;
+    }
+    .why-us-men {
+        height: 400px;
+    }
+    .why-us-text {
+        width: 50%;
+    }
+}
+
+@media (max-width: 840px) {
+    .why-us-circle {
+        display: none;
+    }
+    .why-us-men {
+        display: none;
+    }
+    .why-us-text {
+        width: 95%;
+    }
+}

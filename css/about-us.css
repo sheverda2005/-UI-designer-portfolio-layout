@@ -161,3 +161,26 @@
     transform: translateX(0px);
     transition: all 1s ease;
 }
+
+@media (max-width: 1186px) {
+    .about-us-main-photo img{
+        height: 400px;
+    }
+    .about-us-content {
+        justify-content: center;
+        align-items: center;
+    }
+    .about-us-circl-img {
+        display: none;
+    }
+    .about-us-circl-img.second {
+        display: none;
+    }
+}
+
+
+@media (max-width: 920px) {
+    .about-us-main-photo img{
+        display: none;
+    }
+}

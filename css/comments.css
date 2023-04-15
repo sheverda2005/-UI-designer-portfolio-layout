@@ -74,4 +74,14 @@
 
 .user-comments-nav img {
     cursor: pointer;
+    margin-right: 20px;
+}
+
+@media (max-width: 900px) {
+    .user-comments-cards {
+        flex-direction: column;
+    }
+    .user-comments-card {
+        width: 70%;
+    }
 }

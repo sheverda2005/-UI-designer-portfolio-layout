@@ -88,11 +88,10 @@ footer a:hover{
 
 .icons {
     display: flex;
-    width: 40%;
     justify-content: space-between;
 }
 
-.icon {
+.icon{
     background-color: #ffffff;
     width: 40px;
     height: 40px;
@@ -101,4 +100,70 @@ footer a:hover{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin: 0px 10px;
+}
+
+@media (max-width: 1005px) {
+    .follow-us-icons {
+        flex-direction: column;
+        align-items: start;
+    }
+    .icon{
+        margin: 10px 0px 0px 0px;
+    }
+    .icons {
+        width: 80%;
+    }
+
+}
+
+.about-list {
+    margin: 0px 20px;
+}
+
+.what-we-do-list {
+    margin: 0px 20px;
+}
+
+@media (max-width: 1300px) {
+    .footer-lists {
+        width: 50%;
+    }
+}
+
+@media (max-width: 950px) {
+    footer {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 850px) {
+    .footer-lists {
+        flex-direction: column;
+    }
+    .what-we-do-list {
+        margin: 40px 0px 0px 0px;
+    }
+    .about-list {
+        margin: 0px;
+    }
+    .footer-lists {
+        width: 40%;
+    }
+    .footer-sign-up {
+        width: 40%;
+    }
+}
+
+@media (max-width: 690px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-lists {
+        width: 100%;
+    }
+    .footer-sign-up {
+        width: 100%;
+    }
 }
